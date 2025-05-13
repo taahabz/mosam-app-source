@@ -1,5 +1,7 @@
 import axios from 'axios';
 
+//  const API_URL = 'http://localhost:5000/api';   for local
+
 const API_URL = 'https://mosambackend-production.up.railway.app/api';
 
 const api = axios.create({
